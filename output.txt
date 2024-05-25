@@ -1,0 +1,10 @@
+
+bill start date: expense start date
+maturity date: expense start date, enddate
+quadratic Equation: diff eqn
+staus code: dress_cd
+pin code: dress_cd
+phone number: contact no
+calculus: no matching element in lookup
+derivative: no matching element in lookup
+technical details: battery tech
