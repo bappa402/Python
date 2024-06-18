@@ -11,10 +11,22 @@ def plot_line(x1,y1,m1, side):  #side is left or right ( 'l' or 'r')
     y=[y1 + m1 * (i-x1) for i in x]
     plt.plot(x,y)
 
+# two points and slope at that point
 x1, y1 = (1, 6)
 x2, y2 = (10, 30)
 m1, m2 = (1, 2)
 
+
+''' 
+finding a cubic polynomial y = f(x) = ax^3 + bx^2 + cx + d
+that somoothly connect both lines.
+so here,  
+f(x1) = y1
+f(x2) = y2
+f'(x1) = m1
+f'(x2) = m2
+which is solved by linear algebra using numpy library
+'''
 A = [
     [x1**3, x1**2, x1, 1],
     [x2**3, x2**2, x2, 1],
