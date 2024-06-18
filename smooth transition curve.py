@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# plot a line segment from one endpoint and slope
 
 def plot_line(x1,y1,m1, side):  #side is left or right ( 'l' or 'r')
     if side == 'l':
