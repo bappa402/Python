@@ -1,7 +1,0 @@
-date, dt, datetime
-code,cd
-start
-end
-number, no
-equation, eq, eqn
-techonology, tech
